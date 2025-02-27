@@ -355,7 +355,7 @@ span{
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns: repeat(auto-fit ,minmax(300px,auto));
     gap: 3rem;
 
 }
